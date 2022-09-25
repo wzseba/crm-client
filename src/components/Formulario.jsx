@@ -2,8 +2,6 @@ import { Formik, Form, Field } from "formik"
 import * as Yup from 'yup'
 import Alerta from './Alerta'
 
-
-
 const Formulario = () => {
     //validacion con yup
     const nuevoClienteValido = Yup.object().shape({
