@@ -17,7 +17,7 @@ function Inicio() {
       <p className="mt-3">Administra tus Clientes</p>
 
       {
-        clientes.length ? (
+        clientes?.length ? (
           <table className="w-full bg-white shadow mt-5 table-auto">
             <thead className="bg-blue-800 text-white">
               <tr>
